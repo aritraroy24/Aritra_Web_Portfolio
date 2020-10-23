@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/github-fff7f8?colorA=080808&colorB=8a8a8a&style=for-the-badge&logo=github)
 ![](https://img.shields.io/badge/made_with-❤️-bee5ed?colorA=f5e856&colorB=ffa526&style=for-the-badge)
 ![](https://img.shields.io/badge/visual_studio_code-1.50.1-181717?colorA=5094cc&style=for-the-badge&logo=visual-studio-code)
-# Developer Portfolio [![Netlify Status] &nbsp;&nbsp; (https://api.netlify.com/api/v1/badges/c4a2f28a-ac93-420f-9264-668dd6721974/deploy-status)](https://app.netlify.com/sites/designerari/deploys)
+# Developer Portfolio [![Netlify Status] &nbsp;&nbsp;[![Netlify Status](https://api.netlify.com/api/v1/badges/c4a2f28a-ac93-420f-9264-668dd6721974/deploy-status)](https://app.netlify.com/sites/designerari/deploys)
 ----
 ## Description :memo:
    * This is a ReactJS based personal developer resume website.
