@@ -6,16 +6,17 @@
 # Developer Portfolio 
 ----
 ## Description :memo:
-   * This is a ReactJS based personal resume website for academic purpose.
+   * This is a ReactJS based personal developer resume website.
    * It is a fully responsive website.
    * The contact form works perfectly to get a mail in your inbox. I've taken the help of [Formspree](https://formspree.io/account/) site to validate and functionalize my form.
+   
 ## Live Demo :point_down:
-https://designerari.netlify.app/
+[designerari.netlify.app](https://designerari.netlify.app/)
 
 ### Used Technologies :
-*   HTML5
-*   SCSS
-*   React
+   * HTML5
+   * SCSS
+   * React
 -----
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c4a2f28a-ac93-420f-9264-668dd6721974/deploy-status)](https://app.netlify.com/sites/designerari/deploys)
 </br>
