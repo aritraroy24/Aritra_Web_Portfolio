@@ -1,0 +1,67 @@
+.Footer {
+	background: rgb(6, 14, 31);
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: default;
+
+	a {
+		color: #64ffdb85;
+		text-decoration: none;
+		transition: all 200ms ease-out;
+
+		&:hover {
+			color: rgba(255, 47, 82, 0.685);
+		}
+	}
+
+	p {
+		font-family: 'Overpass Mono';
+		font-size: 12px;
+		color: rgb(149, 171, 204);
+		margin-top: 10px;
+		opacity: 1;
+		padding: 8px 15px;
+		border-radius: 1px;
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.Footer {
+		height: 90px;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.Footer {
+		height: 130px;
+
+		p {
+			margin-top: 60px;
+		}
+	}
+}
+@media only screen and (max-width: 650px) {
+	.Footer {
+		height: 130px;
+
+		p {
+			margin-top: 60px;
+		}
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.Footer {
+		height: 120px;
+
+		p {
+			margin-top: 80px;
+		}
+	}
+}

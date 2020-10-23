@@ -1,0 +1,63 @@
+.number-heading {
+	font-family: 'Overpass Mono';
+	font-size: 23px;
+	color: #64ffda;
+	margin-right: -3px;
+	padding-right: 10px;
+	padding-top: 4px;
+}
+
+.heading-work {
+	font-family: 'Overpass';
+}
+
+@media only screen and (max-width: 700px) {
+	.heading-work {
+		font-size: 35px;
+	}
+}
+
+h1 {
+	font-size: 70px;
+	font-family: 'Overpass';
+	margin-bottom: 5px;
+	color: rgb(227, 237, 255);
+}
+
+.title-section {
+	width: 100%;
+	min-height: 100vh;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 50px 0;
+	padding-bottom: 130px;
+}
+
+.sub-header-title {
+	color: rgba(255, 255, 255, 0.5);
+	transition: all 200ms ease-out;
+}
+
+.contact-button {
+	border: 1px solid #64ffda;
+	color: #ffffff;
+	border-radius: 4px;
+	font-family: 'Overpass Mono';
+	font-size: 18px;
+	cursor: pointer;
+	margin-right: 30px;
+	padding: 18px 30px;
+	background: rgba(0, 0, 0, 0);
+	margin-top: 60px;
+	transition: all 200ms ease-out;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:hover {
+		background: #64ffdb18;
+	}
+}

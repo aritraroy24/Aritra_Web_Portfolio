@@ -1,0 +1,197 @@
+.ProjectCard {
+	max-width: 850px;
+	width: 100%;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background: #2d344157;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.24);
+	transition: all 200ms ease-out;
+
+	a {
+		text-decoration: none;
+		color: rgb(231, 231, 231);
+	}
+
+	img {
+		width: 100%;
+		border-radius: 4px 4px 0 0;
+		transition: all 500ms ease-out;
+		filter: sepia() saturate(180%) hue-rotate(110deg);
+
+		&:hover {
+			filter: grayscale(0%);
+		}
+	}
+
+	.card-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+	}
+
+	.tech {
+		display: flex;
+		padding: 10px 20px 20px 20px;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+
+	ul {
+		display: flex;
+		margin: 5px 0;
+	}
+
+	li {
+		list-style-type: none;
+		margin: 0;
+		font-family: 'Overpass Mono';
+		font-size: 14px;
+		text-align: left;
+		min-width: 100px;
+		color: #64ffda;
+
+		span {
+			padding-right: 15px;
+		}
+	}
+
+	h3 {
+		color: rgb(235, 235, 235);
+		font-size: 25px;
+		width: 100%;
+		font-family: 'Overpass';
+		padding: 10px 20px 10px 20px;
+
+		span {
+			cursor: pointer;
+			transition: all 200ms ease-out;
+
+			&:hover {
+				color: #fe3e55;
+			}
+		}
+	}
+
+	.overlap {
+		font-size: 16px;
+		line-height: 1.6;
+		color: rgb(212, 222, 238);
+		padding: 0px 20px;
+		border-radius: 4px;
+		width: 100%;
+		text-align: left;
+		right: 220px;
+		font-family: 'Overpass';
+
+		span {
+			color: #64ffda;
+			font-family: 'Overpass Mono';
+			font-size: 13px;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+	}
+
+	.github-hyperlinks {
+		height: 50px;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		padding-right: 12px;
+		background: #060e1f;
+		border-radius: 0 0 4px 4px;
+		padding: 20px 20px;
+
+		p {
+			position: relative;
+			bottom: 2px;
+			color: #64ffdb88;
+			font-family: 'Overpass Mono';
+			font-size: 13px;
+		}
+
+		div {
+			display: flex;
+			justify-content: space-between;
+			width: 70px;
+		}
+
+		a {
+			background: green;
+			margin-bottom: 30px;
+			margin-left: 10px;
+			margin-top: -6px;
+		}
+
+		svg {
+			fill: rgb(226, 226, 226);
+
+			&:hover {
+				fill: #fe3e55;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.ProjectCard {
+		li {
+			min-width: 80px;
+			font-size: 14px;
+		}
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.ProjectCard {
+		background: #373c479f;
+
+		.tech {
+			display: flex;
+			padding: 10px 20px 20px 20px;
+			flex-direction: row;
+			width: 100%;
+			justify-content: space-evenly;
+		}
+
+		h3 {
+			color: rgb(235, 235, 235);
+			font-size: 22px;
+			width: 100%;
+			padding: 10px 20px 10px 20px;
+		}
+
+		img {
+			margin-right: 0;
+		}
+
+		ul {
+			flex-direction: column;
+			min-width: 80px;
+			font-size: 14px;
+		}
+		li {
+			font-size: 16px;
+			padding: 2px 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.ProjectCard {
+		.github-hyperlinks {
+			a {
+				margin-top: -9px;
+			}
+
+			div {
+				width: 80px;
+			}
+		}
+	}
+}

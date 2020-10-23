@@ -1,0 +1,265 @@
+h1 {
+  font-size: 70px;
+  font-family: "Overpass";
+  margin-bottom: 5px;
+  color: rgb(227, 237, 255);
+}
+
+.title-section {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+  padding-bottom: 130px;
+}
+
+.introduction {
+  font-size: 18px;
+  color: #fe3e55;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  font-family: "Overpass Mono";
+  transition: all 200ms ease-out;
+}
+
+a:focus {
+  outline: none;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  transition: all 200ms ease-out;
+}
+
+.description-title {
+  margin-top: 35px;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "Overpass";
+  max-width: 540px;
+  transition: all 200ms ease-out;
+}
+
+.sub-header-title {
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 200ms ease-out;
+}
+
+.contact-button {
+  border: 1px solid #64ffda;
+  color: #ffffff;
+  border-radius: 4px;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 18px 30px;
+  background: rgba(0, 0, 0, 0);
+  margin-top: 60px;
+  transition: all 200ms ease-out;
+
+  &:focus {
+    outline: none;
+    background: #64ffdb18;
+  }
+
+  &:hover {
+    background: #64ffdb18;
+  }
+}
+
+.orb {
+  height: 1000px;
+  width: 1000px;
+  background: linear-gradient(
+    to left bottom,
+    #e100ff,
+    #be033b,
+    #021e4400,
+    #021e4400
+  );
+  z-index: -1;
+  position: fixed;
+  transform: rotate(-15deg);
+  bottom: -520px;
+  right: -250px;
+  border-radius: 100%;
+  animation-name: orbfloat;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes orbfloat {
+  from {
+    transform: translate(30px, 0px);
+  }
+  50% {
+    transform: translate(0px, -30px);
+  }
+  to {
+    transform: translate(30px, 0px);
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .description-title {
+    margin-top: 35px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .description-title {
+    margin-top: 35px;
+    font-weight: 300;
+    width: 90%;
+  }
+
+  .introduction {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 47px;
+  }
+
+  body {
+    padding: 48px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .description-title {
+    margin-top: 35px;
+    font-weight: 300;
+    width: 90%;
+  }
+
+  .title-section {
+    margin: auto;
+    margin-top: -20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .description-title {
+    margin-top: 35px;
+    font-weight: 300;
+    font-size: 15px;
+    width: 98%;
+  }
+
+  .introduction {
+    font-size: 12px;
+  }
+
+  .title-section {
+    margin: auto;
+    margin-top: -40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .sub-header-title {
+    font-size: 32px;
+  }
+
+  .contact-button {
+    border: 1px solid #64ffda;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 15px 18px;
+    background: rgba(0, 0, 0, 0);
+    margin-top: 50px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.242);
+    transition: all 200ms ease-out;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 37px;
+  }
+
+  .title-section {
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  body {
+    padding: 25px;
+  }
+
+  .introduction {
+    font-size: 16px;
+  }
+
+  .sub-header-title {
+    font-size: 38px;
+  }
+
+  .orb {
+    bottom: -600px;
+    right: -275px;
+  }
+}
+@media only screen and (max-width: 350px)  {
+  .title-section {
+    margin-top: 80px;
+  }
+}

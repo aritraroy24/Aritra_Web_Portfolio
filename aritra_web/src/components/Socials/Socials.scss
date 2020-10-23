@@ -1,0 +1,104 @@
+.Socials {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	bottom: 0;
+	left: 64px;
+	z-index: 1;
+
+	a {
+		height: 22px;
+		width: 22px;
+		margin-bottom: 23px;
+	}
+}
+
+.stripe {
+	background: rgba(255, 255, 255, 0.555);
+	width: 1px;
+	height: 120px;
+	margin-top: 15px;
+}
+
+svg {
+	margin-bottom: 30px;
+	width: 22px;
+	height: 22px;
+	fill: rgba(255, 255, 255, 0.555);
+	transition: all 200ms ease-out;
+	position: relative;
+
+	&:hover {
+		fill: #ffffff;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.Socials {
+		left: auto;
+		right: 40px;
+	}
+
+	.stripe {
+		height: 90px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.Socials {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		position: relative;
+		bottom: -100px;
+		left: 0;
+		// border-top: solid 1px #fe3e55;
+		z-index: 2;
+
+		a {
+			margin: 35px 23px 50px 20px;
+		}
+	}
+
+	.stripe {
+		background: #cecece00;
+		width: 0px;
+		height: 0px;
+		margin-top: 0px;
+		position: absolute;
+	}
+
+	svg {
+		width: 26px;
+		height: 26px;
+		fill: rgb(180, 197, 228);
+		position: relative;
+
+		&:hover {
+			fill: #64ffda;
+		}
+	}
+}
+@media only screen and (max-width: 450px) {
+	svg {
+		margin: 0 -10px;
+		position: relative;
+
+		&:hover {
+			fill: #64ffda;
+		}
+	}
+}
+@media only screen and (max-width: 350px) {
+	svg {
+		margin: 0 -13px;
+		position: relative;
+
+		&:hover {
+			fill: #64ffda;
+		}
+	}
+}

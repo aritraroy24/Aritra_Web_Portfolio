@@ -1,0 +1,69 @@
+.Projects {
+	width: 100%;
+	min-height: 750px;
+	padding: 70px 0 170px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	h2 {
+		color: rgba(255, 255, 255, 0.932);
+		margin-bottom: 5px;
+		font-family: 'Overpass';
+		font-size: 30px;
+		position: relative;
+		top: 23px;
+		padding-right: 15px;
+
+		span {
+			font-family: 'Overpass Mono';
+			font-size: 22px;
+			color: #64ffda;
+			margin-right: -3px;
+		}
+	}
+
+	.projects-container {
+		width: 100%;
+		display: grid;
+		grid-gap: 100px 40px;
+		grid-template-columns: auto-fit, minmax(330px, 1fr);
+		grid-template-rows: auto;
+		justify-items: center;
+		padding: 70px 0;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.Projects {
+		img {
+			width: 250px;
+		}
+		.projects-container {
+			padding: 70px 20px 70px 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.Projects {
+		.projects-container {
+			padding: 70px 0;
+		}
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.Projects {
+		img {
+			width: 250px;
+			margin-right: 20px;
+		}
+
+		h2 {
+			font-size: 25px;
+			top: 20px;
+		}
+	}
+}
