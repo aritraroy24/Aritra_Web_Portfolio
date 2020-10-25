@@ -5,6 +5,7 @@
 	left: 0;
 	height: 120px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	cursor: default;
@@ -58,10 +59,19 @@
 
 @media only screen and (max-width: 430px) {
 	.Footer {
-		height: 120px;
+		height: 150px;
 
 		p {
 			margin-top: 80px;
+		}
+	}
+}
+@media only screen and (max-width: 350px) {
+	.Footer {
+		height: 180px;
+
+		p {
+			margin-top: 70px;
 		}
 	}
 }

@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 const Home = () => {
   const name = "Aritra Roy";
   const resumeUrl =
-    "https://drive.google.com/file/d/1NKCLkN-CKWPp0-buYJIRcy3jSUpFIgaG/view";
+    "https://drive.google.com/file/d/1Js1YH2eDX-QRlMyBNUBiraix8iuVCBMV/view";
 
   return (
     <>
