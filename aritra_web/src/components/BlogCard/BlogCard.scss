@@ -1,5 +1,5 @@
 .BlogCard {
-	max-width: 350px;
+	max-width: 380px;
 	width: 100%;
 	border-radius: 4px;
 	display: flex;
@@ -131,8 +131,34 @@
 	}
 }
 
+@media only screen and (max-width: 900px) {
+	.BlogCard {
+		max-width: 300px;
+		margin: 30px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.BlogCard {
+		max-width: 230px;
+		margin: 20px;
+
+		.github-hyperlinks {
+			a {
+				margin-top: -9px;
+			}
+
+			div {
+				width: 80px;
+			}
+		}
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	.BlogCard {
+		max-width: 300px;
+
 		li {
 			min-width: 80px;
 			font-size: 14px;
@@ -171,20 +197,6 @@
 		li {
 			font-size: 16px;
 			padding: 2px 0;
-		}
-	}
-}
-
-@media only screen and (max-width: 730px) {
-	.BlogCard {
-		.github-hyperlinks {
-			a {
-				margin-top: -9px;
-			}
-
-			div {
-				width: 80px;
-			}
 		}
 	}
 }

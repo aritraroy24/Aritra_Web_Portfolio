@@ -13,7 +13,7 @@ const Blogs = () => {
 		let i = 0;
 		return (
 			<div className="blog_row">
-				{blogs.slice(0, 3).map(() => (
+				{blogs.slice(0, 2).map(() => (
 					<BlogCard
 						id={blogs[i].id}
 						title={blogs[i].title}
