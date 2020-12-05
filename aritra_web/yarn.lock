@@ -9190,10 +9190,10 @@ react-error-overlay@^6.0.8:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
   integrity sha512-HvPuUQnLp5H7TouGq3kzBeioJmXms1wHy9EGjz2OURWBp4qZO6AfGEcnxts1D/CbwPLRAgTMPCEgYhA3sEM4vw==
 
-react-headroom@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/react-headroom/-/react-headroom-3.0.1.tgz#fa5e1746135e9dd17e6c941a09dd72f5464b9040"
-  integrity sha512-MEyuEqzKpEoh22bPkCbW8bdJTIDIEn3n3rOGktJSsidPWb/wDQfBK+EQEzcTpMMopmXjnIk0umFtv4m8T3WEiA==
+react-headroom@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-headroom/-/react-headroom-3.1.0.tgz#7b176a5439cf937cc20293a49582b11f363a0498"
+  integrity sha512-zgisgzALxNOGqv+xoPSc4mU2mY/C6LK4NfoD2ZQK4qnL/j9Lm+EJ9z3d1PRh2pEcdll1T++q/FAHzrlu7p1E0Q==
   dependencies:
     prop-types "^15.5.8"
     raf "^3.3.0"
