@@ -4,17 +4,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "normalize-scss": "7.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-headroom": "3.0.0",
+    "react-headroom": "3.0.1",
     "react-reveal": "1.2.2",
-    "react-scripts": "4.0.0",
+    "react-scripts": "4.0.1",
     "react-scroll": "1.8.1",
-    "reactstrap": "8.7.0",
-    "styled-components": "5.2.0",
-    "reactstrap": "8.6.0",
+    "reactstrap": "8.7.1",
     "styled-components": "5.2.1"
   },
   "scripts": {
