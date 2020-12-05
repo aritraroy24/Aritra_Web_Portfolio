@@ -43,7 +43,7 @@ const Socials = () => {
 					</svg>
 				</a>
 				<a
-					href='https://medium.com/@aritraroycoc'
+					href='https://medium.com/@aritraroy24'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<svg
