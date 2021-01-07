@@ -11,20 +11,37 @@ const Blogs = () => {
 	});
 	function div1() {
 		let i = 0;
+		let j = 2;
 		return (
-			<div className="blog_row">
-				{blogs.slice(0, 2).map(() => (
-					<BlogCard
-						id={blogs[i].id}
-						title={blogs[i].title}
-						description={blogs[i].description}
-						repoLink={blogs[i].repoLink}
-						blogLink={blogs[i].blogLink}
-						image={blogs[i].image}
-						technologies={blogs[i].technologies}
-						{...i++}
-					/>
-				))}
+			<div>
+				<div className="blog_row">
+					{blogs.slice(0, 2).map(() => (
+						<BlogCard
+							id={blogs[i].id}
+							title={blogs[i].title}
+							description={blogs[i].description}
+							repoLink={blogs[i].repoLink}
+							blogLink={blogs[i].blogLink}
+							image={blogs[i].image}
+							technologies={blogs[i].technologies}
+							{...i++}
+						/>
+					))}
+				</div>
+				<div className="blog_row">
+					{blogs.slice(0, 1).map(() => (
+						<BlogCard
+							id={blogs[j].id}
+							title={blogs[j].title}
+							description={blogs[j].description}
+							repoLink={blogs[j].repoLink}
+							blogLink={blogs[j].blogLink}
+							image={blogs[j].image}
+							technologies={blogs[j].technologies}
+							{...j++}
+						/>
+					))}
+				</div>
 			</div>
 		)
 	}

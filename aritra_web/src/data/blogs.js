@@ -1,5 +1,6 @@
 import emailPython from '../assets/blogs/email_python.png'
 import ohMyPosh from '../assets/blogs/oh-my-posh.png'
+import quantumComputing from '../assets/blogs/quantum_computing.png'
 const blogs = [
 	{
 		id: 1,
@@ -16,6 +17,14 @@ const blogs = [
 		blogLink: 'https://medium.com/analytics-vidhya/retrieving-email-and-phone-no-7c60ad3a9b69',
 		image: emailPython,
 		technologies: ['Python', 'Gmail API'],
+	},
+	{
+		id: 3,
+		title: 'Quantum Computing: A Trade War 																											',
+		// repoLink: '',	
+		blogLink: 'https://medium.com/codequake/quantum-computing-a-trade-war-c92a80e0bbfe',
+		image: quantumComputing,
+		technologies: ['Quantum', 'qubit'],
 	}
 ];
 

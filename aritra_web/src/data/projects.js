@@ -1,4 +1,4 @@
-import designCard from '../assets/projects/design_your_card.png'
+import newsAholic from '../assets/projects/newsaholic.jpg'
 import budgetBuy from '../assets/projects/budget_buy.jpg'
 import jsNotes from '../assets/projects/js_notes.png'
 import certGenerate from '../assets/projects/certificate_generator.jpg'
@@ -7,15 +7,15 @@ import americanHero from '../assets/projects/american_hero.png'
 const projects = [
 	{
 		id: 1,
-		title: 'Design Your Digital Card',
+		title: 'Newsaholic',
 		description:
-			'A web app to make a digital business card for you within 5 minutes.',
-		repoLink: 'https://github.com/aritraroy24/Design_Your_Card',
-		deployLink: 'https://create-digital-card.netlify.app',
-		image: designCard,
-		role: 'Web Application Developer',
-		weekDuration: 'Ongoing 1',
-		technologies1: ['HTML5', 'CSS3', 'Bootstrap 4', 'React'],
+			'An android news application built using React Native. This is a collaboration project under Duoscript organisation.',
+		repoLink: 'https://github.com/DuoScript/Newsaholic',
+		deployLink: '',
+		image: newsAholic,
+		role: 'Android Application Developer',
+		weekDuration: 'Ongoing 6',
+		technologies1: ['React Native', '', 'RSS'],
 		technologies2: []
 	},
 	{
