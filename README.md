@@ -19,10 +19,6 @@
    * SCSS
    * React
 -----
-</br>
-</br>
-------
-
 ## Available Scripts
 
 In the project directory, you can run:
