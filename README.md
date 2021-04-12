@@ -12,7 +12,7 @@
    
 ## Live Demo :point_down:
 ### [designerari.netlify.app](https://designerari.netlify.app/)
-[![](https://s8.gifyu.com/images/ezgif.com-gif-maker4e2f7ef98753fb91.gif)](https://gifyu.com/image/8icu)
+[![web_portfolio.gif](https://s4.gifyu.com/images/web_portfolio.gif)](https://gifyu.com/image/rhza)
 ----
 ### Used Technologies :
    * HTML5
@@ -22,7 +22,7 @@
 </br>
 </br>
 ------
-This project was created with [Create React App](https://github.com/facebook/create-react-app).
+This project has been created with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
