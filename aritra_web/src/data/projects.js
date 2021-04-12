@@ -36,8 +36,8 @@ const projects = [
 		title: 'My Notes',
 		description:
 			'A simple web application for taking notes using simple JavaScript and LocalStorage. ',
-		repoLink: 'https://github.com/aritraroy24/Budget_Buy_ShoppingSite',
-		deployLink: 'https://budgetbuy.netlify.app/',
+		repoLink: 'https://github.com/aritraroy24/JS_Note',
+		deployLink: 'https://aritraroy24.github.io/JS_Note/',
 		image: jsNotes,
 		role: 'Web Application Developer',
 		weekDuration: '1',

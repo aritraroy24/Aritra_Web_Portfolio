@@ -1,11 +1,11 @@
 .BlogCard {
-	max-width: 380px;
-	width: 100%;
+	max-width: 600px;
+	min-height: 250px;
 	border-radius: 4px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	background: #2d344157;
 	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.24);
 	transition: all 200ms ease-out;
@@ -17,10 +17,11 @@
 	}
 
 	img {
-		width: 100%;
+		width: 15vw;
 		border-radius: 4px 4px 0 0;
 		transition: all 200ms ease-out;
 		filter: brightness(70%);
+		padding: 2vw 0 2vw 2vw;
 
 		&:hover {
 			filter: brightness(100%);
@@ -30,16 +31,18 @@
 	.card-text {
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
-		width: 100%;
+		width: 240px;
 	}
 
 	.tech {
 		display: flex;
-		padding: 10px 20px 20px 20px;
-		justify-content: flex-start;
+		padding: 20px 20px 20px 20px;
+		justify-content: center;
+		align-items: center;
 		flex-direction: column;
+		width: 100%;
 	}
 
 	ul {
@@ -48,6 +51,9 @@
 	}
 
 	li {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		list-style-type: none;
 		margin: 0;
 		font-family: 'Overpass Mono';
@@ -63,10 +69,11 @@
 
 	h3 {
 		color: rgb(235, 235, 235);
-		font-size: 25px;
+		font-size: 20px;
 		width: 100%;
 		font-family: 'Overpass';
 		padding: 10px 20px 10px 20px;
+		text-align: center;
 
 		span {
 			cursor: pointer;
@@ -101,78 +108,188 @@
 	.github-hyperlinks {
 		height: 50px;
 		display: flex;
-		width: 100%;
-		justify-content: space-between;
-		padding-right: 12px;
+		width: 50%;
+		align-items: center;
+		justify-content: center;
 		background: #060e1f;
-		border-radius: 0 0 4px 4px;
-		padding: 20px 20px;
+		border-radius: 4px 4px 4px 4px;
+		padding: 20px 20px 20px 20px;
 
 		div {
 			display: flex;
-			justify-content: space-between;
-			width: 70px;
-		}
-
-		a {
-			background: green;
-			margin-bottom: 30px;
-			margin-left: 10px;
-			margin-top: -6px;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			padding: 20px 20px 20px 20px;
 		}
 
 		svg {
+			margin: 20px 20px 20px 20px;
 			fill: rgb(226, 226, 226);
 
 			&:hover {
 				fill: #fe3e55;
 			}
 		}
+
 	}
 }
 
+@media only screen and (max-width: 1300px) {
+	.BlogCard {
+		max-width: 430px;
+		margin: 20px;
+
+		h3 {
+			font-size: 18px;
+		}
+	}
+}
+@media only screen and (max-width: 1150px) {
+	.BlogCard {
+		max-width: 450px;
+		margin: 30px;
+
+		h3 {
+			font-size: 18px;
+		}
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.BlogCard {
+		max-width: 400px;
+		margin: 15px;
+
+		h3 {
+			font-size: 15px;
+		}
+	}
+}
+
+
 @media only screen and (max-width: 900px) {
 	.BlogCard {
-		max-width: 300px;
-		margin: 30px;
+		min-width: 40vw;
+		margin: 13px;
+		min-height: 180px;
+
+		.card-text {
+			width: 60%;
+		}
+
+		h3 {
+			font-size: 12px;
+			padding: 5px 10px 5px 10px;
+		}
+
+		li {
+			font-size: 10px;
+		}
+
+		.github-hyperlinks {
+			height: 35px;
+			width: 40%;
+			svg {
+				width: 15px;
+				height: 15px;
+				margin: 10px 10px 10px 10px;
+				fill: rgb(226, 226, 226);
+	
+				&:hover {
+					fill: #fe3e55;
+				}
+			}
+		}
 	}
+
 }
 
 @media only screen and (max-width: 730px) {
 	.BlogCard {
-		max-width: 230px;
+		width: 230px;
+		min-height: 160px;
 		margin: 20px;
 
+		h3 {
+			font-size: 10px;
+			padding: 2.5px 5px 2.5px 5px;
+		}
+
+		.tech {
+			padding: 10px 10px 10px 10px;
+		}
+
+		li {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			list-style-type: none;
+			margin: 0;
+			font-family: 'Overpass Mono';
+			font-size: 8px;
+			text-align: center;
+			min-width: 60px;
+			color: #64ffda;
+
+		}
+		
 		.github-hyperlinks {
-			a {
-				margin-top: -9px;
+			svg {
+				width: 12px;
+				height: 12px;
+				margin: 5px 5px 5px 5px;
+				fill: rgb(226, 226, 226);
+	
+				&:hover {
+					fill: #fe3e55;
+				}
 			}
 
-			div {
-				width: 80px;
+			a {
+				height: 20px;
 			}
+
+
 		}
 	}
 }
 
 @media only screen and (max-width: 600px) {
 	.BlogCard {
-		max-width: 300px;
+		width:520px;
+
+		h3 {
+			font-size: 20px;
+			padding: 2.5px 5px 2.5px 5px;
+		}
 
 		li {
-			min-width: 80px;
+			min-width: 100px;
 			font-size: 14px;
+		}
+		img {
+			width: 30vw;
+			padding: 2vw;
+		}
+
+
+		.github-hyperlinks {
+			width: 30%;
 		}
 	}
 }
 
+
 @media only screen and (max-width: 500px) {
 	.BlogCard {
+		width: 80vw;
+		height: 200px;
 		background: #373c479f;
 
 		.tech {
 			display: flex;
-			padding: 10px 20px 20px 20px;
+			padding: 5px 10px 5px 10px;
 			flex-direction: row;
 			width: 100%;
 			justify-content: space-evenly;
@@ -180,14 +297,11 @@
 
 		h3 {
 			color: rgb(235, 235, 235);
-			font-size: 22px;
+			font-size: 14px;
 			width: 100%;
-			padding: 10px 20px 10px 20px;
+			padding: 0px 10px 0px 10px;
 		}
 
-		img {
-			margin-right: 0;
-		}
 
 		ul {
 			flex-direction: column;
@@ -195,8 +309,30 @@
 			font-size: 14px;
 		}
 		li {
-			font-size: 16px;
+			font-size: 10px;
 			padding: 2px 0;
+		}
+
+		img {
+			margin: 0;
+		}
+
+		.github-hyperlinks {
+			width: 40%;
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.BlogCard {
+		height: 180px;
+		h3 {
+			font-size: 10px;
+		}
+		li {
+			font-size: 7px;
+		}
+		.github-hyperlinks {
+			height: 20px;
 		}
 	}
 }

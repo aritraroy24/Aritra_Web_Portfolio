@@ -50,6 +50,7 @@ p {
 .sub-header-title {
   color: rgba(255, 255, 255, 0.5);
   transition: all 200ms ease-out;
+  font-size:55px;
 }
 
 .contact-button {
@@ -113,6 +114,9 @@ p {
   h1 {
     font-size: 60px;
   }
+  .sub-header-title {
+    font-size: 48px;
+  }
 
   p {
     font-size: 16px;
@@ -128,7 +132,9 @@ p {
   h1 {
     font-size: 50px;
   }
-
+  .sub-header-title {
+    font-size: 42px;
+  }
   p {
     font-size: 16px;
   }
@@ -148,7 +154,9 @@ p {
   h1 {
     font-size: 47px;
   }
-
+  .sub-header-title {
+    font-size: 38px;
+  }
   body {
     padding: 48px;
   }
@@ -179,7 +187,9 @@ p {
   h1 {
     font-size: 32px;
   }
-
+  .sub-header-title {
+    font-size: 26px;
+  }
   p {
     font-size: 14px;
   }
@@ -206,10 +216,6 @@ p {
     padding-bottom: 50px;
   }
 
-  .sub-header-title {
-    font-size: 32px;
-  }
-
   .contact-button {
     border: 1px solid #64ffda;
     color: #ffffff;
@@ -227,7 +233,7 @@ p {
 
 @media only screen and (max-width: 500px) {
   h1 {
-    font-size: 37px;
+    font-size: 39px;
   }
 
   .title-section {
@@ -250,7 +256,7 @@ p {
   }
 
   .sub-header-title {
-    font-size: 38px;
+    font-size: 31px;
   }
 
   .orb {
@@ -258,8 +264,18 @@ p {
     right: -275px;
   }
 }
+@media only screen and (max-width: 500px)  {
+  body {
+    padding: 55px;
+  }
+}
 @media only screen and (max-width: 350px)  {
   .title-section {
     margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 320px)  {
+  body {
+    overflow-x: hidden;
   }
 }

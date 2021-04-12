@@ -202,7 +202,7 @@ const Education = ({ data }) => {
 		<StyledContainer id='work' ref={revealContainer} name='Career'>
 			<Fade cascade bottom>
 				<Heading className='heading-work'>
-					<span className='number-heading'>04. </span>Education
+					<span className='number-heading'>04.</span>Education
 				</Heading>
 				<StyledTabs>
 					<StyledTabList role='tablist'>

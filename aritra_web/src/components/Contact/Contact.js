@@ -8,7 +8,7 @@ const Contact = () => {
 		<Fade cascade>
 			<main className='Contact' name='Contact' id="Contact">
 				<h2>
-					<span>05. </span>Get In Touch
+					<span className='number-heading'>05.</span>Get In Touch
 				</h2>
 				<p>
 					For you my inbox is

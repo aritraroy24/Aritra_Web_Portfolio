@@ -11,7 +11,7 @@ const AboutMe = () => {
 				<section className='about-box'>
 					<section className='about-description'>
 						<h2>
-							<span>01. </span>About Me
+							<span className='number-heading'>01. </span>About Me
 						</h2>
 						<p>
 							I'm a M.Sc. Chemistry student and self-taught Web Application Developer originally from

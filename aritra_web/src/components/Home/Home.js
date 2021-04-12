@@ -13,7 +13,7 @@ const Home = () => {
         <section className="title-section">
           <p className="introduction">Hello! Hola! My name is</p>
           <h1>{name}.</h1>
-          <h1 className="sub-header-title">Building things for the web.</h1>
+          <h2 className="sub-header-title">Building things for the web.</h2>
           <p className="description-title">
             I'm a{" "}
             <span>
