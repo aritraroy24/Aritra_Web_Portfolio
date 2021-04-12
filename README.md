@@ -18,10 +18,8 @@
    * HTML5
    * SCSS
    * React
------
-</br>
-</br>
------
+
+------
 
 This project has been created with [Create React App](https://github.com/facebook/create-react-app)
 
