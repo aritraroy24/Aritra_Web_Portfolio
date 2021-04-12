@@ -79,7 +79,7 @@ const AboutMe = () => {
 						</section>
 					</section>
 					<section>
-						<img src={headshot} alt='Photo of Aritra' />
+						<img src={headshot} alt='Headshot of Aritra' />
 					</section>
 				</section>
 			</Fade>

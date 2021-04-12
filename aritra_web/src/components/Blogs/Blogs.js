@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Blogs.scss';
 import Fade from 'react-reveal/Fade';
 import blogs from '../../data/blogs';
@@ -6,9 +6,7 @@ import BlogCard from '../BlogCard/BlogCard'
 
 
 const Blogs = () => {
-	const cards = blogs.map(blog => {
-		return <BlogCard key={blog.id} {...blog} />;
-	});
+	
 	function div1() {
 		let i = 0;
 		return (

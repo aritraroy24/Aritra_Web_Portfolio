@@ -11,8 +11,7 @@ const ProjectCard = project => {
 		repoLink,
 		deployLink,
 		weekDuration,
-		image,
-		role
+		image
 	} = project;
 	return (
 		<Fade duration={500}>
