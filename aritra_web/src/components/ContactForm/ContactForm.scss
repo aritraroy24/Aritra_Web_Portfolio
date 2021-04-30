@@ -131,11 +131,20 @@
 		}
 	}
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 349px) {
 	.ContactForm {
 		input,
 		textarea {
 			width: 220px;
+		}
+	}
+}
+@media only screen and (max-width: 314px) {
+	.ContactForm {
+		left: 1vw;
+		input,
+		textarea {
+			width: 200px;
 		}
 	}
 }

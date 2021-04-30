@@ -82,23 +82,3 @@ svg {
 		}
 	}
 }
-@media only screen and (max-width: 450px) {
-	svg {
-		margin: 0 -10px;
-		position: relative;
-
-		&:hover {
-			fill: #64ffda;
-		}
-	}
-}
-@media only screen and (max-width: 350px) {
-	svg {
-		margin: 0 -13px;
-		position: relative;
-
-		&:hover {
-			fill: #64ffda;
-		}
-	}
-}

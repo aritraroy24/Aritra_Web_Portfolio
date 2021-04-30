@@ -57,10 +57,21 @@
 	}
 }
 
+@media only screen and (max-width: 500px) {
+	.Footer {
+		height: 180px;
+
+		p {
+			margin-top: 60px;
+			margin-bottom: -80px;
+		}
+	}
+}
+
 @media only screen and (max-width: 430px) {
 	.Footer {
-		height: 150px;
-
+		height: 250px;
+		position: absolute;
 		p {
 			margin-top: 80px;
 		}
@@ -72,4 +83,11 @@
 			margin-top: 70px;
 		}
 	}
+}
+@media only screen and (max-width: 314px) {
+    .Footer {
+		height: 220px;
+		width: 104vw;
+	}
+
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import Fade from "react-reveal/Fade";
+import BuyMeIceCream from '../../assets/buyme.png'
 
 const Home = () => {
   const name = "Aritra Roy";
@@ -22,21 +23,34 @@ const Home = () => {
             and UI design enthusiast based in West Bengal, India. My areas of expertise
             lie in JavaScript ES6+, UX/UI Design, and Test-Driven Development.
           </p>
-          <div>
-            <Fade bottom cascade delay={800}>
-              <a href="#Contact" className="button-link">
-                <button className="contact-button">Get In Touch</button>
-              </a>
+          <div className="AllButtons">
+            <div className="ContactButton">
+              <Fade bottom cascade delay={800}>
+                <a href="#Contact" className="button-link">
+                  <button className="contact-button">Get In Touch</button>
+                </a>
+                <a
+                  href={resumeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button-link"
+                >
+                  <button className="contact-button">Download CV</button>
+                </a>
+              </Fade>
+            </div>
+            <div className="BuyCoffee">
               <a
-                href={resumeUrl}
+                href="https://www.buymeacoffee.com/aritraroy24"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="button-link"
               >
-                <button className="contact-button">Download CV</button>
+                <img id="BuyMeIceCream" src={BuyMeIceCream} />
               </a>
-            </Fade>
+            </div>
           </div>
+
         </section>
       </Fade>
       <div className="orb"></div>

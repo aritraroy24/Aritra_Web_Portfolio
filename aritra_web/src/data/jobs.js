@@ -7,7 +7,7 @@ const jobs = [
 		dateRange: 'July 2019 - Present',
 		url: 'https://www.pondiuni.edu.in/',
 		description: [
-			'8.08 CGPA (Upto 2nd Semester)',
+			'8.65 CGPA (Upto 2nd Semester)',
 			'Will be completed by 2021',
 			'Under Pondicherry Central University'
 		]

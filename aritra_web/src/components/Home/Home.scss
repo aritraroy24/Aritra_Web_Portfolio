@@ -5,6 +5,26 @@ h1 {
   color: rgb(227, 237, 255);
 }
 
+.AllButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#BuyMeIceCream {
+  width: 340px;
+  margin-right: 30px;
+  padding: 18px 15px;
+  margin-top: 60px;
+}
+.ContactButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .title-section {
   width: 100%;
   min-height: 100vh;
@@ -110,6 +130,18 @@ p {
   }
 }
 
+@media only screen and (max-width: 1145px) {
+  .contact-button {
+    font-size: 12.5px;
+  }
+  #BuyMeIceCream {
+    width: 280px;
+    padding: 18px 10px;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+}
+
 @media only screen and (max-width: 1050px) {
   h1 {
     font-size: 60px;
@@ -128,7 +160,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 732px) {
   h1 {
     font-size: 50px;
   }
@@ -147,6 +179,25 @@ p {
 
   .introduction {
     font-size: 14px;
+  }
+  .contact-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 18px 30px;
+  }
+  .ContactButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .AllButtons {
+    display: flex;
+    flex-direction: column;
+  }
+  #BuyMeIceCream {
+    width: 250px;
   }
 }
 
