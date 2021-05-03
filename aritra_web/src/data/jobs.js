@@ -7,9 +7,10 @@ const jobs = [
 		dateRange: 'July 2019 - Present',
 		url: 'https://www.pondiuni.edu.in/',
 		description: [
-			'8.65 CGPA (Upto 2nd Semester)',
+			'8.65 CGPA (Upto 3rd Semester)',
 			'Will be completed by 2021',
-			'Under Pondicherry Central University'
+			'Under Pondicherry Central University',
+			'Doing project work in Chemical Information Science Laboratory (Computational Chemistry)'
 		]
 	},
 	{

@@ -11,7 +11,7 @@
 	cursor: default;
 
 	a {
-		color: #64ffdb85;
+		color: #64ffda;
 		text-decoration: none;
 		transition: all 200ms ease-out;
 
@@ -29,6 +29,10 @@
 		padding: 8px 15px;
 		border-radius: 1px;
 		margin-top: 40px;
+
+		span {
+			color: #64ffda;
+		}
 	}
 }
 
@@ -87,7 +91,7 @@
 @media only screen and (max-width: 314px) {
     .Footer {
 		height: 220px;
-		width: 104vw;
+		width: 107vw;
 	}
 
 }

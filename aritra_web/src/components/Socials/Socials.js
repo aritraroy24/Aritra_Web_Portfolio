@@ -90,7 +90,7 @@ const Socials = () => {
 					</svg>
 				</a>
 				<a
-					href='https://www.facebook.com/aritraroy24'
+					href='https://www.instagram.com/aritraroy24/'
 					target='_blank'
 					rel='noopener noreferrer'>
 					<svg

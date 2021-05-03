@@ -6,7 +6,7 @@ import BuyMeIceCream from '../../assets/buyme.png'
 const Home = () => {
   const name = "Aritra Roy";
   const resumeUrl =
-    "https://drive.google.com/file/d/1Sw-qPhYPRTcL7Uau9wUYF8DtKWRj1M0N/view";
+    "https://drive.google.com/file/d/1JkoKWqVkSV9wCyd45ILi27va1fsVRkGD/view?usp=sharing";
 
   return (
     <>
