@@ -47,7 +47,7 @@ function SocialNarrow() {
                 </div>
                 <div className='Social_Part'>
                     <a
-                        href='https://twitter.com/Aritraroy24Roy'
+                        href='https://twitter.com/aritraroy24'
                         target='_blank'
                         rel='noopener noreferrer'>
                         <svg

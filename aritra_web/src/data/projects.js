@@ -1,8 +1,8 @@
 import newsAholic from '../assets/projects/newsaholic.jpg'
+import CompChemNewsBot from '../assets/projects/CompChemNewsBot.jpg'
 import budgetBuy from '../assets/projects/budget_buy.jpg'
 import jsNotes from '../assets/projects/js_notes.png'
 import certGenerate from '../assets/projects/certificate_generator.jpg'
-import americanHero from '../assets/projects/american_hero.png'
 
 const projects = [
 	{
@@ -15,11 +15,24 @@ const projects = [
 		image: newsAholic,
 		role: 'Android Application Developer',
 		weekDuration: 'Ongoing 6',
-		technologies1: ['React Native', '', 'RSS'],
+		technologies1: ['React Native', '', 'RSS Feed'],
 		technologies2: []
 	},
 	{
 		id: 2,
+		title: 'CompChemNewsBot',
+		description:
+			'A Twitter Bot made using python tweepy and bs4 module to get the latest news about Computational Chemistry and tweet the news. It runs daily and hosted using WayScript Time Trigger',
+		repoLink: 'https://github.com/aritraroy24/CompChemNewsBot',
+		deployLink: 'https://twitter.com/CompChemNewsBot',
+		image: CompChemNewsBot,
+		role: 'Python Developer',
+		weekDuration: '1',
+		technologies1: ['Python3', 'bs4', 'Tweepy'],
+		technologies2: []
+	},
+	{
+		id: 3,
 		title: 'Budget Buy',
 		description:
 			'A shopping web application with login and cart functionality. ',
@@ -32,7 +45,7 @@ const projects = [
 		technologies2: ['Redux', 'Firebase', 'Material UI']
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'My Notes',
 		description:
 			'A simple web application for taking notes using simple JavaScript and LocalStorage. ',
@@ -45,7 +58,7 @@ const projects = [
 		technologies2: []
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Certificate Generator',
 		description:
 			'An web application made using JavaScript for generating instant online certificates. ',
@@ -55,20 +68,6 @@ const projects = [
 		role: 'Web Application Developer',
 		weekDuration: '1',
 		technologies1: ['HTML5', 'CSS3', 'Javascript', 'Bootstrap 4'],
-		technologies2: []
-	}
-	,
-	{
-		id: 5,
-		title: 'Amercan Hero',
-		description:
-			'A simple restrurent web application UI made using HTML and CSS for generating instant online certificates. ',
-		repoLink: 'https://github.com/aritraroy24/Restaurant_American_Hero',
-		deployLink: 'https://aritraroy24.github.io/Restaurant_American_Hero/',
-		image: americanHero,
-		role: 'Web Application Developer',
-		weekDuration: '1',
-		technologies1: ['HTML5', 'CSS3'],
 		technologies2: []
 	}
 ];
