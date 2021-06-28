@@ -1,7 +1,6 @@
 import React from 'react';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import AboutMe from '../AboutMe/AboutMe';
-import Socials from '../Socials/Socials';
 import Condition from '../Socials/Condition'
 import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
